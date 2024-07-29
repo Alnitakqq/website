@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио фотографа</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Главная страница -->
+    <header>
+        <h1>Добро пожаловать в мое портфолио</h1>
+    </header>
+    <main>
+        <section id="gallery">
+            <h2>Мои работы</h2>
+            <div class="photo-grid">
+                <!-- Примеры фотографий -->
+                <img src="photo1.jpg" alt="Фото 1">
+                <img src="photo2.jpg" alt="Фото 2">
+                <img src="photo3.jpg" alt="Фото 3">
+            </div>
+        </section>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Я фотограф с большим опытом...</p>
+            <img src="author.jpg" alt="Фото автора">
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Следите за мной в социальных сетях</p>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.facebook.com">Facebook</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
